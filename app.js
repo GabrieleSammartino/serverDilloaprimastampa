@@ -14,7 +14,7 @@ var app = express();
 app.use(cors());
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://gabriele.sammartino:asd123@ds113958.mlab.com:13958/gabriele');
+mongoose.connect('mongodb://gabriele.sammartino:asd123@ds047524.mlab.com:47524/dilloaprimastampa');
 
 
 var db = mongoose.connection;
