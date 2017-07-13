@@ -23,9 +23,7 @@ router.post('/', function (req, res, next) {
 });
 router.put('/:id',function(req,res,next){
     var _setObj = JSON.parse(JSON.stringify({
-        title: req.body.title ? req.body.title : undefined,
         img: req.body.img ? req.body.img : undefined,
-        category: req.body.category ? req.body.category : undefined,
         description: req.body.description ? req.body.description : undefined
 
     }));
